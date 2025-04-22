@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Set Streamlit page layout
 st.set_page_config(layout="wide")
-st.title('📈 Stock Market Predictor')
+st.title('📈 Stock Trend Predictor')
 
 # Load model from local directory
 model_path = 'Stock Predictions Model.keras'
